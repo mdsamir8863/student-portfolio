@@ -533,3 +533,23 @@ nav {
     }
 
 }
+
+
+
+#nameSpan {
+    color: blue;
+    font-size: 20px;
+    position: relative;
+    animation: slideDown 1s ease;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -437,6 +437,21 @@ nav {
     display: flex;
 }
 
+.nav-link {
+    color: inherit;
+    /* Use the default link color */
+    text-decoration: none;
+    /* Remove underline */
+    padding: 0.5rem 1rem;
+    /* Add padding for better clickability */
+}
+
+.nav-link.active {
+    color: aquamarine;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+}
+
 @media screen and (max-width:768px) {
     h1 {
         font-size: 1rem;
